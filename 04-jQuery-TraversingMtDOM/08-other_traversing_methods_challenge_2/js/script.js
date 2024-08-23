@@ -7,3 +7,12 @@ $(document).ready(function() {
         $(this).siblings().addClass("selection");
     });
 });
+
+// First         $("div").first()
+// Last          $("div").last()
+// Siblings      $("div").siblinkgs()
+// Filter        $("div").filter(".intro")   /// intro class in the div
+
+var panelColor = $(this).css("background-color");
+console.log(panelColot);
+$(".resetButton").css("background-color", panelColor);

@@ -8,6 +8,10 @@ $(document).ready(function() {
 
 	// Toggle the visibility of the paragraph when a button is clicked 
 	$("button").click(function(){
-		$(this).next().slideToggle('slow');
+		$(this).next().slideToggle("slow");
 	});
 });
+
+// Next       $("div").next():
+// PREV       $("div").prev();
+// TOGGLECLASS  $("div").toggleClass("bigBorder");

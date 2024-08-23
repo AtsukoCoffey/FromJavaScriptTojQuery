@@ -6,3 +6,8 @@ $(document).ready(function() {
 		within this paragraph*/
 	});
 });
+
+// Parent           $("div").parent()
+// Children         $("div").children()
+// First            $("div").first()
+// Last             $("div").last()

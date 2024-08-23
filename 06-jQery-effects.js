@@ -65,3 +65,20 @@ $("#myButton").removeClass("blueBox").addClass("border");
 $("p").css("color", "blue").slideUp(2000).slideDown(2000);
 // Using .attr method 'getter' and 'setter' which is usual just one thing in css
 $("a").attr("href", "http://www.example.com");
+
+
+// First         $("div").first()
+// Last          $("div").last()
+// Siblings      $("div").siblinkgs()
+// Filter        $("div").filter(".intro")   /// intro class in the div
+
+// var panelColor = $(this).css("background-color");
+// console.log(panelColot);
+// $(".resetButton").css("background-color", panelColor);
+
+// Parent           $("div").parent()
+// Children         $("div").children()
+// First            $("div").first()
+// Last             $("div").last()
+
+// siblings('p'), siblings('#card-par-1'), 
