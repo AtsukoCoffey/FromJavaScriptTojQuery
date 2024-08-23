@@ -15,7 +15,7 @@ $(document).ready(function () {
         $(".stream1").hide('1000'); 
     });
     $("#stream1_btn").on(function () {  // Toggle function   eg. button clickable thing
-        $(".stream1").toggle('highlight_stream');
+        $(".stream1").toggle();
         $(".stream2").toggle('1000');
     });
     $("#stream2_btn").on(function () {  // Slide down 
@@ -55,3 +55,13 @@ $(document).ready(function () {
 // All the effects can be implemented over a specified time, resulting in animation.
 // The duration of the effect may specify the milliseconds, or use one of three preset timings: fast, medium, or slow.
 // So let's look at some 
+
+
+
+// 07-jQuery-method-chaining
+// After removeEventListener, add new class
+$("#myButton").removeClass("blueBox").addClass("border");
+// After slide up, slide down
+$("p").css("color", "blue").slideUp(2000).slideDown(2000);
+// Using .attr method 'getter' and 'setter' which is usual just one thing in css
+$("a").attr("href", "http://www.example.com");
